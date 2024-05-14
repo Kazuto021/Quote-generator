@@ -9,7 +9,7 @@ const Quotes = () => {
     const requestedURL = await fetch(url, {
       method: "Get",
       headers: {
-        "X-Api-Key": "0H0NTxbmJLxhY51sw1K1NQ==TGIW7Qkzvxx8IezC",
+        "X-Api-Key": "Your_API",
       },
     });
     let apiResponse = await requestedURL.json();
